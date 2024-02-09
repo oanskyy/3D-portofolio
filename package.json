@@ -1,0 +1,21 @@
+{
+	"name": "portofolio-3d",
+	"version": "1.0.0",
+	"description": "three.js animated portofolio",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel src/index.html --open",
+		"build": "parcel build src/index.html"
+	},
+	"keywords": [
+		"three.js",
+		"3d",
+		"portofolio"
+	],
+	"author": "0xoansky",
+	"license": "ISC",
+	"devDependencies": {
+		"parcel-bundler": "^1.12.5",
+		"sass": "^1.70.0"
+	}
+}

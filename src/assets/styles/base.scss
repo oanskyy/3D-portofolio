@@ -1,0 +1,19 @@
+/* Global CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: #c177b2;
+	background-image: linear-gradient(315deg, #c177b2 0%, #e2e1e1 74%);
+
+	// background: #68148e;
+	// background-image: radial-gradient(at center, #68148e, #5e11f9);
+}
