@@ -1,0 +1,28 @@
+#1 Setup, SEO, reset styles
+1.1 SEO: Index.html file:
+
+- SEO: add descriptive,keywords and title meta tags
+- SEO: create favicons for different browsers and sizes
+- perf: IMG: optimize image sizes, by compressing them to improve website performance. Website speed is a significant ranking factor for Google
+- perf: Image Optimization: Uploading images after optimizing, it helps you achieve better SEO results.
+  --> https://compressjpeg.com/
+- SEO: responsive/mobile: make sure your website is mobile friendly. Google gives preference to websites that are mobile friendly. In combination with other SEO factors, responsiveness can help give you a big boost in search engine results.
+- URL: the keywords you choose to include in the URL structure can definitely impact your SEO and ranking.
+  --> https://mysiteauditor.com/blog/top-10-most-important-seo-tips-for-url-optimization/
+- Google has stated that page speed is a ranking factor for Google Search and Ads.
+
+  1.2 Add global styles and Resets in base.css file:
+  /_ Global CSS _/
+  \*,
+  ::before,
+  ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+html,
+body {
+height: 100%;
+overflow-x: hidden;
+}
