@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
+//Variables
+$luminous-lime: #6cff8d;
+$forest-green: #6cff8c7a;
+$rose-quartz: #f6ceec;
+$enigma-orchid: #c177b2;
+$platinum-mist: #e2e1e1;
+
 /* Global CSS */
 *,
 ::before,
@@ -52,7 +59,7 @@ h6 {
 
 a {
 	text-decoration: none;
-	color: inherit; 
+	color: inherit;
 	cursor: pointer;
 }
 
@@ -67,6 +74,7 @@ svg {
 	max-width: 100%;
 }
 
-//Variables
-$green-color: #6cff8d;
-$dark-green-color: #6cff8c7a;
+// 2016: Rose Quartz and Serenity
+// For the first time in Pantone's Color of the Year program history, the company chose two colors for a single year.
+
+// As a soft, light pink, Rose Quartz is a persuasive yet gentle tone that symbolizes compassion and composure. The delicate color is like a warm embrace. When paired with Serenity, it promotes peace and balance.
