@@ -30,6 +30,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 	line-height: 1.5;
 	-webkit-font-smoothing: antialised;
+	color: #e2e1e1;
 }
 
 button,
@@ -47,6 +48,15 @@ h4,
 h5,
 h6 {
 	overflow-wrap: break-word;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style: none;
 }
 
 img,
