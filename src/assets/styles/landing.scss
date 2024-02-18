@@ -9,6 +9,7 @@
 		top: 1rem;
 		left: 50%;
 		transform: translateX(-50%);
+		opacity: 0;
 
 		&__wrap {
 			width: 80vw;
@@ -48,6 +49,16 @@
 				display: none;
 			}
 		}
+	}
+
+	.socials {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 10rem;
+		gap: 1rem;
+		display: flex;
+		align-items: center;
 	}
 }
 

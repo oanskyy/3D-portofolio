@@ -98,8 +98,40 @@
 
 	@media (max-width: 800px) {
 		& {
-			transform: scale3d(.7, .7, .7);
+			transform: scale3d(0.7, 0.7, 0.7);
 			font-size: 23px;
 		}
 	}
 }
+
+.colored-icon {
+	color: #fff;
+	font-size: 35px;
+
+	&:hover {
+		animation: coloredIcon 0.3s;
+	}
+
+	@keyframes coloredIcon {
+		0% {
+			text-shadow: 4px 3px #f0f, -3px -4px #0ff;
+		}
+		25% {
+			text-shadow: -3px -4px #f0f, 4px 3px #0ff;
+		}
+		50% {
+			text-shadow: 4px -3px #f0f, -5px 4px #0ff;
+		}
+		75% {
+			text-shadow: -4px -3px #f0f, -4px -3px #0ff;
+		}
+		100% {
+			text-shadow: -4px 1px #f0f, 5px -3px #0ff;
+		}
+	}
+}
+
+/* 
+#f0f 
+#0ff
+*/
