@@ -4,6 +4,10 @@
 	height: 100vh;
 	overflow: hidden;
 
+	// background-image: url();
+	// background-size: cover; 
+	// background-repeat: no-repeat;
+
 	.header {
 		position: absolute;
 		top: 1rem;
@@ -59,6 +63,85 @@
 		gap: 1rem;
 		display: flex;
 		align-items: center;
+		opacity: 0;
+	}
+
+	.scrollDown {
+		position: absolute;
+		bottom: 3rem;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+
+		&__wheel {
+			width: 24px;
+			height: 40px;
+			border: 2px solid #fff;
+			border-radius: 10px;
+
+			&--inner {
+				position: absolute;
+				left: 10px;
+				margin-top: 5px;
+				width: 4px;
+				height: 4px;
+				background: #fff;
+				border-radius: 50%;
+				animation: movingwheel 0.5s linear infinite;
+
+				@keyframes movingwheel {
+					0% {
+						top: 1px;
+					}
+					25% {
+						top: 2px;
+					}
+					50% {
+						top: 3px;
+					}
+					75% {
+						top: 2px;
+					}
+					100% {
+						top: 1px;
+					}
+				}
+			}
+		}
+
+		.scrollDown__arrows {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.scrollDown__arrow {
+				width: 15px;
+				height: 15px;
+				border-right: 2px solid #fff;
+				border-bottom: 2px solid #fff;
+				transform: rotate(45deg);
+				animation: scrollDown 1s infinite;
+				animation-direction: alternate;
+
+				&:nth-child(2) {
+					animation-delay: 0.2s;
+				}
+				&:nth-child(2) {
+					animation-delay: 0.3s;
+				}
+				@keyframes scrollDown {
+					0% {
+						opacity: 0;
+					}
+					50% {
+						opacity: 0.5;
+					}
+					100% {
+						opacity: 1;
+					}
+				}
+			}
+		}
 	}
 }
 

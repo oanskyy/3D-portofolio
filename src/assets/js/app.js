@@ -54,7 +54,7 @@ let barInterval = setInterval(() => {
 			opacity: 1
 		})
 
-		gsap.to(".header", {
+		gsap.to(".header, .socials, .scrollDown", {
 			duration: 2,
 			delay: 2,
 			opacity: 1
